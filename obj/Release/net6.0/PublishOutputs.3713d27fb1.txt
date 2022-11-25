@@ -1,0 +1,8 @@
+D:\MAESTRIA\automatizacion\Taller_3\MultiApp\MultiApp\obj\Release\net6.0\PubTmp\Out\MultiApp.exe
+D:\MAESTRIA\automatizacion\Taller_3\MultiApp\MultiApp\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\MAESTRIA\automatizacion\Taller_3\MultiApp\MultiApp\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\MAESTRIA\automatizacion\Taller_3\MultiApp\MultiApp\obj\Release\net6.0\PubTmp\Out\MultiApp.dll
+D:\MAESTRIA\automatizacion\Taller_3\MultiApp\MultiApp\obj\Release\net6.0\PubTmp\Out\MultiApp.deps.json
+D:\MAESTRIA\automatizacion\Taller_3\MultiApp\MultiApp\obj\Release\net6.0\PubTmp\Out\MultiApp.runtimeconfig.json
+D:\MAESTRIA\automatizacion\Taller_3\MultiApp\MultiApp\obj\Release\net6.0\PubTmp\Out\MultiApp.pdb
+D:\MAESTRIA\automatizacion\Taller_3\MultiApp\MultiApp\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
