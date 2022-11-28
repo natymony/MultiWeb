@@ -11,7 +11,7 @@ namespace test
         {
             FacturaController controller = new FacturaController();
             Task<IEnumerable<factura>> result = controller.OnGet() as Task<IEnumerable<factura>>;
-            Assert.IsNotNull(result);
+            Assert.IsNotNull(result.Result.ToList());
 
         }
     }
