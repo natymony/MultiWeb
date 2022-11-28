@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
-WORKDIR /app
+WORKDIR  /app
 EXPOSE 80
 EXPOSE 443
 
@@ -14,6 +14,6 @@ FROM build AS publish
 RUN dotnet publish -c Release -o /publish
 
 FROM base AS final
-WORKDIR /app
+WORKDIR  //app
 COPY --from=publish /publish .
 ENTRYPOINT ["dotnet", "MultiApp.dll"]
