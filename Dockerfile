@@ -5,7 +5,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /app
-COPY MultiApp.csproj .
+COPY MultiWeb/MultiApp.csproj .
 RUN dotnet restore
 COPY . .
 RUN dotnet build -c Release
