@@ -16,4 +16,4 @@ RUN dotnet publish -c Release -o /publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /publish .
-ENTRYPOINT ["dotnet", "WebApi.dll"]
+ENTRYPOINT ["dotnet", "MultiApp.dll"]
