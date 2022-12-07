@@ -3,8 +3,9 @@ kind: Service
 metadata:
     name: multiweb
 spec:
-    type: LoadBalancer
+    type: NodePort
     ports:
-    - port: 8080 
+    - port: 8080
+      nodePort: 30080
     selector:
         app: multiweb
